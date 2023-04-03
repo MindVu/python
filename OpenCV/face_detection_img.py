@@ -2,10 +2,10 @@ import numpy as np
 import cv2
 
 #load some pre_trained data on face frontals from opencv (haar cascade algo)
-trained_face_data = cv2.CascadeClassifier('OpenCV\haarcascade_frontalface_default.xml')
+trained_face_data = cv2.CascadeClassifier('mindvu/Documents/Code/python/OpenCV/haarcascade_frontalface_default.xml')
 
 #choose an image to detect faces in
-img = cv2.imread('OpenCV\\test.jpg')
+img = cv2.imread('mindvu/Documents/Code/python/OpenCV/test.jpg')
 
 #must convert to grayscale
 grayscaled_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

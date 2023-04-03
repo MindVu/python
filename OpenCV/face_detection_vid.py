@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 #load some pre_trained data on face frontals from opencv (haar cascade algo)
-trained_face_data = cv2.CascadeClassifier('OpenCV\haarcascade_frontalface_default.xml')
+trained_face_data = cv2.CascadeClassifier('OpenCV/haarcascade_frontalface_default.xml')
 
 #capture video from webcam
 webcam = cv2.VideoCapture(0)
