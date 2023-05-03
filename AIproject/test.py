@@ -2,7 +2,7 @@ import csv
 import googleapiclient.discovery
 import googleapiclient.errors
 
-DEVELOPER_KEY = "AIzaSyADp7BinfKMvNc_3aHAZsSSvg5d6nlr7OA"
+DEVELOPER_KEY = ""
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
